@@ -1,5 +1,5 @@
 let people = [{
-        name: 'John Doe'
+        name: 'John Doe 1'
     },
     {
         name: 'Steve Smith'

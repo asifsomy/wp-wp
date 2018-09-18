@@ -14,12 +14,12 @@
 
 //es6 import after babel
 import "../scss/app.scss"
-import {default as $} from 'jquery'
+//import {default as $} from 'jquery' // Will include jquery with encrypt scirpt
 import {default as people} from './people.js'
 import {default as Vue} from 'vue'
 import VueApp from './vue/App.vue'
 
-$.each(people, function(key, val){
+jQuery.each(people, function(key, val){
     $('body').append('<h1>' + key + ' - ' + people[key].name + '</h1>')
 })
 

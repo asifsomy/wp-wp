@@ -4,14 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "watch": "webpack ./src/js/app.js --o ./dist/bundle.js --watch"
+    "start": "webpack ./src/js/app.js --o ./dist/bundle.js --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.3.1"
   },
   "devDependencies": {
+    "jquery": "^3.3.1",
     "@babel/core": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
     "autoprefixer": "^9.1.5",

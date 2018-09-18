@@ -7,7 +7,7 @@ const config = {
 
     output: {
         path: './dist',
-        filename: 'app.js'
+        filename: 'bundle.js'
     },
     module: {
         rules: [
